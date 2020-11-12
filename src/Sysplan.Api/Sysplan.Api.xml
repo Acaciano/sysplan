@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sysplan.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Sysplan.Api.Controllers.AuthController.Post(Sysplan.Application.ViewModels.AuthViewModel)">
+            <summary>
+            Efetua o login
+            </summary>
+            <param name="authModel">Dados de entrada para o login</param>
+        </member>
+        <member name="M:Sysplan.Api.Controllers.ClienteController.Get(System.Int32,System.Int32,System.String,System.String,System.String,System.String)">
+            <summary>
+            Efetua a consulta paginada dos registros cadastrados
+            </summary>
+            <param name="page">Página atual</param>
+            <param name="size">Quantidade de registros por página</param>
+            <param name="orderProperty">Propriedade para ordenação</param>
+            <param name="orderCrescent">Ordem dos registros</param>
+            <param name="filterProperty">Propriedade para filtro</param>
+            <param name="filterValue">Valor da propridade de filtro</param>
+            <returns>Lista paginada de registros</returns>
+        </member>
+        <member name="M:Sysplan.Api.Controllers.ClienteController.Get(System.String)">
+            <summary>
+            Efetua a consulta de um registro pelo seu código
+            </summary>
+            <param name="id">Código do registro</param>
+            <returns>Registro encontrado</returns>
+        </member>
+        <member name="M:Sysplan.Api.Controllers.ClienteController.Post(Sysplan.Domain.Commands.AddClienteCommand)">
+            <summary>
+            Efetua o cadastro de um novo registro
+            </summary>
+            <param name="command">Dados do registro</param>
+        </member>
+        <member name="M:Sysplan.Api.Controllers.ClienteController.Put(System.Guid,Sysplan.Domain.Commands.UpdateClienteCommand)">
+            <summary>
+            Efetua a atualização de um registro
+            </summary>
+            <param name="id"></param>
+            <param name="command">Dados do registro</param>
+        </member>
+        <member name="M:Sysplan.Api.Controllers.ClienteController.Delete(System.String)">
+            <summary>
+            Efetua a exclusão de um registro
+            </summary>
+            <param name="id">Código do registro</param>
+        </member>
+    </members>
+</doc>

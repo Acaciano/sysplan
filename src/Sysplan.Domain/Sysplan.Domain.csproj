@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DataTransferObjects\**" />
+    <EmbeddedResource Remove="DataTransferObjects\**" />
+    <None Remove="DataTransferObjects\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sysplan.Crosscutting\Sysplan.Crosscutting.Common\Sysplan.Crosscutting.Common.csproj" />
+    <ProjectReference Include="..\Sysplan.Crosscutting\Sysplan.Crosscutting.Domain\Sysplan.Crosscutting.Domain.csproj" />
+    <ProjectReference Include="..\Sysplan.Crosscutting\Sysplan.Crosscutting.Infrastructure\Sysplan.Crosscutting.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

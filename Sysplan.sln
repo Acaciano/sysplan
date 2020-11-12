@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{152B3C60-55C7-40D0-9625-BAFD0ADBB31F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Crosscutting", "Crosscutting", "{0530C4CB-45B1-4444-A144-0358BBF0D1F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F3352690-36FD-483A-ADF6-01E28A9C99AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sysplan.Crosscutting.Infrastructure", "src\Sysplan.Crosscutting\Sysplan.Crosscutting.Infrastructure\Sysplan.Crosscutting.Infrastructure.csproj", "{1B5A194A-6BD5-4EA9-9FEC-6D4544414C34}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sysplan.Crosscutting.Common", "src\Sysplan.Crosscutting\Sysplan.Crosscutting.Common\Sysplan.Crosscutting.Common.csproj", "{DB52EEA8-DDAE-4BBC-8E3A-79E87EA679AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sysplan.Crosscutting.Bus", "src\Sysplan.Crosscutting\Sysplan.Crosscutting.Bus\Sysplan.Crosscutting.Bus.csproj", "{6BA5D552-9C8F-4885-9EBC-33A21676413E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sysplan.Infrastructure", "src\Sysplan.Infrastructure\Sysplan.Infrastructure.csproj", "{63C825E9-F0E4-46D4-AB66-523B4B9402CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sysplan.IoC", "src\Sysplan.IoC\Sysplan.IoC.csproj", "{91CF3A27-5986-457E-A3A0-EB397687B725}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sysplan.Domain", "src\Sysplan.Domain\Sysplan.Domain.csproj", "{9D2A4FEB-3E22-46A3-A67E-F36D800620FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sysplan.Application", "src\Sysplan.Application\Sysplan.Application.csproj", "{D9BC806A-A9E6-48BB-A88A-6A4FDD470E5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sysplan.Api", "src\Sysplan.Api\Sysplan.Api.csproj", "{6CCFEB0B-6FCC-4762-94B7-3FD4FE4686F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sysplan.Crosscutting.Domain", "src\Sysplan.Crosscutting\Sysplan.Crosscutting.Domain\Sysplan.Crosscutting.Domain.csproj", "{03DD3262-0B52-4076-BFA4-D2523DDB1AFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B5A194A-6BD5-4EA9-9FEC-6D4544414C34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B5A194A-6BD5-4EA9-9FEC-6D4544414C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B5A194A-6BD5-4EA9-9FEC-6D4544414C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B5A194A-6BD5-4EA9-9FEC-6D4544414C34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB52EEA8-DDAE-4BBC-8E3A-79E87EA679AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB52EEA8-DDAE-4BBC-8E3A-79E87EA679AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB52EEA8-DDAE-4BBC-8E3A-79E87EA679AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB52EEA8-DDAE-4BBC-8E3A-79E87EA679AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BA5D552-9C8F-4885-9EBC-33A21676413E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA5D552-9C8F-4885-9EBC-33A21676413E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA5D552-9C8F-4885-9EBC-33A21676413E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA5D552-9C8F-4885-9EBC-33A21676413E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63C825E9-F0E4-46D4-AB66-523B4B9402CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C825E9-F0E4-46D4-AB66-523B4B9402CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C825E9-F0E4-46D4-AB66-523B4B9402CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C825E9-F0E4-46D4-AB66-523B4B9402CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91CF3A27-5986-457E-A3A0-EB397687B725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91CF3A27-5986-457E-A3A0-EB397687B725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91CF3A27-5986-457E-A3A0-EB397687B725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91CF3A27-5986-457E-A3A0-EB397687B725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D2A4FEB-3E22-46A3-A67E-F36D800620FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D2A4FEB-3E22-46A3-A67E-F36D800620FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D2A4FEB-3E22-46A3-A67E-F36D800620FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D2A4FEB-3E22-46A3-A67E-F36D800620FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9BC806A-A9E6-48BB-A88A-6A4FDD470E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9BC806A-A9E6-48BB-A88A-6A4FDD470E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9BC806A-A9E6-48BB-A88A-6A4FDD470E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9BC806A-A9E6-48BB-A88A-6A4FDD470E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CCFEB0B-6FCC-4762-94B7-3FD4FE4686F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CCFEB0B-6FCC-4762-94B7-3FD4FE4686F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CCFEB0B-6FCC-4762-94B7-3FD4FE4686F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CCFEB0B-6FCC-4762-94B7-3FD4FE4686F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03DD3262-0B52-4076-BFA4-D2523DDB1AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03DD3262-0B52-4076-BFA4-D2523DDB1AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03DD3262-0B52-4076-BFA4-D2523DDB1AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03DD3262-0B52-4076-BFA4-D2523DDB1AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B5A194A-6BD5-4EA9-9FEC-6D4544414C34} = {0530C4CB-45B1-4444-A144-0358BBF0D1F6}
+		{DB52EEA8-DDAE-4BBC-8E3A-79E87EA679AB} = {0530C4CB-45B1-4444-A144-0358BBF0D1F6}
+		{6BA5D552-9C8F-4885-9EBC-33A21676413E} = {0530C4CB-45B1-4444-A144-0358BBF0D1F6}
+		{63C825E9-F0E4-46D4-AB66-523B4B9402CE} = {152B3C60-55C7-40D0-9625-BAFD0ADBB31F}
+		{91CF3A27-5986-457E-A3A0-EB397687B725} = {152B3C60-55C7-40D0-9625-BAFD0ADBB31F}
+		{9D2A4FEB-3E22-46A3-A67E-F36D800620FA} = {152B3C60-55C7-40D0-9625-BAFD0ADBB31F}
+		{D9BC806A-A9E6-48BB-A88A-6A4FDD470E5D} = {152B3C60-55C7-40D0-9625-BAFD0ADBB31F}
+		{6CCFEB0B-6FCC-4762-94B7-3FD4FE4686F5} = {152B3C60-55C7-40D0-9625-BAFD0ADBB31F}
+		{03DD3262-0B52-4076-BFA4-D2523DDB1AFC} = {0530C4CB-45B1-4444-A144-0358BBF0D1F6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59BF986A-01AD-4C10-92E1-C26D9567849C}
+	EndGlobalSection
+EndGlobal

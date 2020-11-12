@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Confluent.Kafka" Version="1.3.0" />
+    <PackageReference Include="MediatR" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sysplan.Crosscutting.Common\Sysplan.Crosscutting.Common.csproj" />
+    <ProjectReference Include="..\Sysplan.Crosscutting.Domain\Sysplan.Crosscutting.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
