@@ -25,6 +25,6 @@ Tecnologias / Padrões de Arquitetura utilizadas
 	2 - Executar o comando docker-compose up -d
 	3 - Pronto, contanter do mongoDB criado!
 
-Duvidas? 
+Duvidas? Pode enviar um e-mail. 
 Nome: Acaciano Neves
 E-mail: acaciano.neves@gmail.com
